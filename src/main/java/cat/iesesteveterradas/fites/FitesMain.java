@@ -13,7 +13,6 @@ public class FitesMain {
             System.out.println("1) Exercici1");
             System.out.println("2) Exercici2");
             System.out.println("3) Exercici3");
-            System.out.println("4) Exercici4");
             System.out.println("100) Sortir");
             System.out.print("Opció: ");
 
@@ -28,12 +27,9 @@ public class FitesMain {
                     Exercici1.main(args);
                     break;
                 case 2:
-                    Exercici2Llegeix.main(args);
-                    break;
-                case 3:
                     Exercici2.main(args);
                     break;
-                case 4:
+                case 3:
                     Exercici3.main(args);
                     break;
                 case 100:

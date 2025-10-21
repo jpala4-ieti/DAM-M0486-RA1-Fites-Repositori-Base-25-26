@@ -17,14 +17,7 @@ L'arxiu .zip ha de contenir:
    que es veuen amb ? enlloc d'accents en altres sistemes 
    operatius). Això restarà punts
 
-- Els arxius no estàn en cap paquet específic, les activitats 
-  estàn pensades per funcionar independentment a no ser que 
-  ho demani l'exercici específicament.
-
 - Podeu fer servir l'IDE de desenvolupament que vulgueu si 
   el teniu ben configurat, però NO adaptaré la correcció a 
   configuracions específiques (exòtiques) de cada eina. 
-  Per evitar problemes us recomano fer servir les comandes 
-  de terminal anteriors o VisualStudioCode, que executa 
-  directament a la carpeta on hi ha el codi .java
   

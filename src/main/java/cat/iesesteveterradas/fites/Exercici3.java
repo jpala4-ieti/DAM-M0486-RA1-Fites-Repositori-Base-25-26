@@ -38,7 +38,7 @@ import jakarta.json.stream.JsonGenerator;
  * Implementa el codi que realitzi el següent:
  * 
  * - Genera documents XML i JSON a partir de la informació sobre llenguatges de programació continguda en una llista.
- * - Guarda l'estructura XML i JSON generada en fitxers a les rutes especificades amb els noms 'Exercici4.xml' i 'Exercici4.json'.
+ * - Guarda l'estructura XML i JSON generada en fitxers a les rutes especificades amb els noms 'Exercici3.xml' i 'Exercici3.json'.
  * - Per crear el fitxer JSON cal usar Jakarta.
  * - Gestió d'errors: si hi ha algun problema en escriure o generar els fitxers, mostra l'excepció a la consola.
  

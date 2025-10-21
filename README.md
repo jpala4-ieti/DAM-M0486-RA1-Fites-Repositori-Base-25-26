@@ -11,10 +11,8 @@ Execució ràpida dels diferents exemples i resolusions de problemes
 ```bash
 .\run.ps1 cat.iesesteveterradas.fites.Exercici0
 .\run.ps1 cat.iesesteveterradas.fites.Exercici1
-.\run.ps1 cat.iesesteveterradas.fites.Exercici2Escriu
-.\run.ps1 cat.iesesteveterradas.fites.Exercici2Llegeix
+.\run.ps1 cat.iesesteveterradas.fites.Exercici2
 .\run.ps1 cat.iesesteveterradas.fites.Exercici3
-.\run.ps1 cat.iesesteveterradas.fites.Exercici4
 ```
 
 ## Linux ##
@@ -25,10 +23,8 @@ run.sh  cat.iesesteveterradas.fites.FitesMain
 ```bash
 run.sh  cat.iesesteveterradas.fites.Exercici0
 run.sh  cat.iesesteveterradas.fites.Exercici1
-run.sh  cat.iesesteveterradas.fites.Exercici2Escriu
-run.sh  cat.iesesteveterradas.fites.Exercici2Llegeix
+run.sh  cat.iesesteveterradas.fites.Exercici2
 run.sh  cat.iesesteveterradas.fites.Exercici3
-run.sh  cat.iesesteveterradas.fites.Exercici4
 ```
 
 ## Compilació i funcionament ##
@@ -73,3 +69,21 @@ mvn exec:java -q -Dexec.mainClass="<com.project.Main>" <param1> <param2> <param3
 On:
 * <com.project.Main>: és la classe principal que vols executar.
 * \<param1>, \<param2>, \<param3>: són els paràmetres que necessites passar a la teva aplicació.
+
+### Execució de tests ###
+Per executar, un cop generat l'artefacte .jar
+```bash
+# Executar TOTS els tests
+mvn test
+# Executar un test individual especificant package o només nom del test
+mvn test "-Dtest=com.project.pr13.PR130MainTest"
+mvn test -Dtest=PR130MainTest
+# Executar múltiples tests específics (separats per comes)
+mvn test -Dtest="PR130MainTest,PR131MainTest,PR132MainTest"
+# Tots els tests que comencin amb "Lectura"
+mvn test -Dtest="Lectura*"
+# Tots els tests que continguin "Arxiu"
+mvn test -Dtest="*Arxiu*"
+# Tests específics de List i Scanner
+mvn test -Dtest="*List*,*Scanner*"
+```

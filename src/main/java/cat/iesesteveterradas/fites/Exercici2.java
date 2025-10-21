@@ -8,7 +8,7 @@ import cat.iesesteveterradas.fites.objectes.Exercici2nau;
 /**
  * Implementa el codi que realitzi el següent:
  * 
- * - Serialitza aquesta llista en un fitxer binari anomenat 'Exercici3.dat' al directori de treball especificat.
+ * - Serialitza aquesta llista en un fitxer binari anomenat 'Exercici2.dat' al directori de treball especificat.
  * - Després d'una pausa d'1 segon, deserialitza la llista del fitxer binari i la imprimeix per pantalla amb el format "Nom, País Any".
  * - Gestió d'errors: si hi ha algun problema en escriure o llegir el fitxer (ex. fitxer no trobat), mostra l'excepció a la consola amb e.printStackTrace()
  */

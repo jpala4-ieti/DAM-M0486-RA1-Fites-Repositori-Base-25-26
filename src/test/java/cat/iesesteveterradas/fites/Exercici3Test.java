@@ -56,7 +56,7 @@ public class Exercici3Test {
             assertEquals(5, llista.getLength(), "Hi hauria d'haver 5 elements llenguatge en el fitxer XML.");
 
             // Comprovar el primer llenguatge
-            NodeList noms = Exercici4.getNodeList(doc, "//llenguatge/nom");
+            NodeList noms = Exercici3.getNodeList(doc, "//llenguatge/nom");
             assertEquals("C", noms.item(0).getTextContent(), "El primer llenguatge en el fitxer XML hauria de ser C.");
         } catch (Exception e) {
             e.printStackTrace();

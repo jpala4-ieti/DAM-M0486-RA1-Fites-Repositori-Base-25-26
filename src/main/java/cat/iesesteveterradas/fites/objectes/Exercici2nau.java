@@ -30,8 +30,8 @@ public class Exercici2nau implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Exercici3nau)) return false;
-        Exercici3nau that = (Exercici3nau) o;
+        if (!(o instanceof Exercici2nau)) return false;
+        Exercici2nau that = (Exercici2nau) o;
         return any == that.any &&
                 Objects.equals(nom, that.nom) &&
                 Objects.equals(pais, that.pais);
